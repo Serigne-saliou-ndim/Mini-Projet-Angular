@@ -1,4 +1,6 @@
+import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
+import { Observable } from 'rxjs/internal/Observable';
 
 @Component({
   selector: 'app-categorie',
@@ -8,5 +10,6 @@ import { Component } from '@angular/core';
   styleUrl: './categorie.component.css'
 })
 export class CategorieComponent {
+
 
 }

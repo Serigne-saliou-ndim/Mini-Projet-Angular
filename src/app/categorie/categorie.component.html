@@ -1,1 +1,22 @@
 <p>categorie works!</p>
+
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Prenom</th>
+        <th scope="col">Nom</th>
+        <th scope="col">Telephone</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let etudiant of list_etudiant">
+            <td scope="row">{{etudiant.id}}</td>
+            <td>{{etudiant.nom}}</td>
+            <td>{{etudiant.prenom}}</td>
+            <td>{{etudiant.telephone}}</td>
+        </tr>
+        
+
+    </tbody>
+  </table>
