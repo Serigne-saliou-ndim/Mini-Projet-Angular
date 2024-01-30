@@ -1,0 +1,18 @@
+.logo 
+{
+    width: 100px;
+    height: auto;
+}
+
+.imageSlider
+{
+    width: 100% !important;
+    height: 500px !important; 
+}
+.carousel-img
+{
+    max-width: 20%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
